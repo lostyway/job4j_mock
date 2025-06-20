@@ -7,6 +7,7 @@ import org.springframework.boot.test.autoconfigure.web.servlet.AutoConfigureMock
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.test.mock.mockito.MockBean;
 import org.springframework.test.context.junit4.SpringRunner;
+import ru.checkdev.notification.NtfSrv;
 import ru.checkdev.notification.domain.SubscribeCategory;
 import ru.checkdev.notification.telegram.TgRun;
 import ru.checkdev.notification.telegram.service.TgAuthCallWebClient;
